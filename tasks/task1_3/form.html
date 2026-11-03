@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Form</title>
+</head>
+<body>
+    <form action="https://httpbin.io/dump/request" method="POST">
+        <p>
+        <label for="date-select">Select a date:</label>
+        <input type="date" name="date" id="date-select" />
+        </p>
+
+        <p>
+            <label for="colour-select">Select a colour:</label>
+            <input type="color" name="color" id="colour-select"/>
+        </p>
+
+        <p>
+            <ul>
+                <li>
+                    <label for="staff">Staff</label>
+                    <input type="radio" id="staff" name="persontype" value="staff" />
+                </li>
+                <li>
+                    <label for="student">Student</label>
+                    <input type="radio" id="student" name="persontype" value="student" />
+                </li>
+            </ul>
+        </p>
+
+        <input type="submit" value="Submit all">
+    </form>
+</body>
+</html>
