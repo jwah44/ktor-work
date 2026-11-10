@@ -1,6 +1,6 @@
 # Task 1.2
 
-1. Copy `document.html` from the `task1_1` subdirectory to here, then edit
+1. Copy `testdoc.html` from the `task1_1` subdirectory to here, then edit
    the copy. Change the document title to "Task 1.2".
 
 2. Add some visible content to the document:

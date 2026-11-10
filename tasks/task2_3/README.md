@@ -1,7 +1,7 @@
 # Task 2.3
 
 1. In the `tasks/task2_3` directory of your repository, create an HTML file
-   named `pico.html`. Put the 'starter code' described in the Guide in
+   named `index.html`. Put the 'starter code' described in the Guide in
    this file. Use "Task 2.3" as the document title.
 
 2. Add some content to the document. At minimum, this should include

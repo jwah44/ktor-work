@@ -1,6 +1,6 @@
 # Task 1.1
 
-1. Create the basic structure of an HTML document in file `document.html`.
+1. Create the basic structure of an HTML document in file `testdoc.html`.
    Your document should include a `head` element and an empty `body` element.
    The `head` element should include the `meta` and `title` elements
    described in the Guide. Use "Task 1.1" as the title.

@@ -1,0 +1,48 @@
+
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="color-scheme" content="light dark">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.fuchsia.min.css">
+    <title>Pico Experiment</title>
+</head>
+<body>
+<main class="container">
+    <h1>Gallery Of Words</h1>
+    <h2><img src="https://static01.nyt.com/images/2015/10/24/opinion/24manguel/24manguel-articleLarge.jpg?quality=75&auto=avif&disable=upscale"></h2>
+
+    <details name="example">
+        <summary>Click to be enlightened</summary>
+        <p>
+            The Gallery Of Words is a digital exhibit that showcases the unrecognised potential that words contain.
+        Words are important in all walks of life and thus we intend to let the world know.
+        Please take your time to take in these words.
+        </p>
+    </details>
+
+    <hr />
+
+    <details name="example">
+        <summary><em>Fill out our form:</em></summary>
+        <p>
+        <form action="https://httpbin.io/dump/request" method="POST">
+            <div>
+                <input type="range" id="enjoyment"
+                       name="enjoyment" min="0" max="100" />
+                <label for="enjoyment">Rate your experience!</label>
+            </div>
+
+            <div>
+                <input type="submit" value="Submit all">
+            </div>
+        </form>
+        </p>
+    </details>
+
+    <a href="http://127.0.0.1:8080/testdoc.html">Easter Egg</a>
+
+</main>
+</body>
+</html>
